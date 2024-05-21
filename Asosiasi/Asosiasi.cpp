@@ -68,11 +68,11 @@ int main()
 
     varDokter1->cetakPasien();
     varDokter2->cetakPasien();
-    varDokter1->cetakPasien(); 
-    varDokter2->cetakPasien();
+    varDokter1->cetakPasien(); //harusnya dokter
+    varDokter2->cetakPasien(); // harusnya doter
 
-    delete varDokter1;
-    delete varDokter2; 
+    delete varDokter1; //harusnya pasien
+    delete varDokter2; // harusnya pasien
     delete varDokter1;
     delete varDokter2;
 
